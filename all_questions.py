@@ -18,7 +18,7 @@ def question1():
 
     # type: float
     # Calculate the probability.
-    answers['(c)'] = 0.008
+    answers['(c)'] = 0.08
     return answers
 
 
@@ -176,7 +176,7 @@ def question8():
     answers = {}
 
     # type: eval_float
-    answers['(a) precision for C0'] = "p"
+    answers['(a) precision for C0'] = "0.1*p"
 
     # type: eval_float
     answers['(a) recall for C0'] = "p"
